@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/viaCep")
+@RequestMapping("/buscaCep")
 public class EnderecoController {
 
     @Autowired
